@@ -1,0 +1,18 @@
+[
+{"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"picasso"},
+{"type":"table","name":"reservations","database":"picasso","data":
+[
+{"id":"1","nom":"Hak","email":"hak@gmail.com","date":"2024-05-07","nombre_places":"1","total_prix":"32"}
+]
+}
+,{"type":"table","name":"tarifs","database":"picasso","data":
+[
+{"Catégorie":"Normal","Prix":"32"},
+{"Catégorie":"Tarif réduit","Prix":"24"},
+{"Catégorie":"Tarif étudiant, demandeurs d’emploi","Prix":"20"},
+{"Catégorie":"Tarif membre de l’association du festival international d’animati","Prix":"12"},
+{"Catégorie":"Tarif -12 ans","Prix":"5"}
+]
+}
+]
